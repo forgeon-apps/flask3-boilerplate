@@ -340,5 +340,15 @@ def v1_index():
     )
 
 if __name__ == "__main__":
-    # For local dev; in Forgeon you'd run via gunicorn/uvicorn equivalent
-    app.run(host="0.0.0.0", port=8000, debug=True)
+    # Forgeon / container-friendly port handling
+    port = int(os.environ.get("PORT", 5000))
+
+    # Enable debug only when FLASK_DEBUG=1 / true / yes
+    debug_env = os.environ.get("FLASK_DEBUG", "")
+    debug = debug_env.lower() in ("1", "true", "yes")
+
+    app.run(
+        host="0.0.0.0",
+        port=port,
+        debug=debug,
+    )

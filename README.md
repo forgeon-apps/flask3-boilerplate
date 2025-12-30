@@ -1,4 +1,3 @@
-[![Deploy with Forgeon](https://forgeon.io/button)](https://forgeon.io/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fforgeon%2Fexamples%2Ftree%2Fmain%2Fpython%2Fflask3&demo-title=Flask%203%20%2B%20Forgeon&demo-description=Use%20Flask%203%20on%20Forgeon%20with%20Serverless%20Functions%20using%20the%20Python%20Runtime.&demo-url=https%3A%2F%2Fflask3-python-template.forgeon.io%2F&demo-image=https://assets.forgeon.io/image/upload/v1669994156/random/flask.png)
 
 # Flask + Forgeon
 
@@ -21,8 +20,10 @@ forgeon dev
 
 Your Flask application is now available at `http://localhost:3000`.
 
-## One-Click Deploy
+## Deploy Your Own
+
+Deploy your own Flask3 project with Forgeon.
 
 Deploy the example using [Forgeon](https://forgeon.io?utm_source=github&utm_medium=readme&utm_campaign=forgeon-examples):
 
-[![Deploy with Forgeon](https://forgeon.io/button)](https://forgeon.io/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fforgeon%2Fexamples%2Ftree%2Fmain%2Fpython%2Fflask3&demo-title=Flask%203%20%2B%20Forgeon&demo-description=Use%20Flask%203%20on%20Forgeon%20with%20Serverless%20Functions%20using%20the%20Python%20Runtime.&demo-url=https%3A%2F%2Fflask3-python-template.forgeon.io%2F&demo-image=https://assets.forgeon.io/image/upload/v1669994156/random/flask.png)
+[![Deploy with Forgeon](https://forgeon.io/images/button-deploy/png/deploy-to-forgeon-6.png)](https://forgeon.io/projects?import=1&no_upload=1&auto=0&git_url=https%3A%2F%2Fgithub.com%2Fforgeon-apps%2Fflask3-boilerplate)
